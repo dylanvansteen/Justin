@@ -30,9 +30,7 @@
     "path": "0.12.7",
     "@angular/compiler-cli": "^2.3.1",
     "angular-cli": "1.0.0-beta.26",
-    "typescript": "~2.0.3"
-  },
-  "devDependencies": {
+    "typescript": "~2.0.3",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "codelyzer": "~2.0.0-beta.1",
@@ -46,5 +44,6 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0"
-  }
+  },
+  "devDependencies": {}
 }
