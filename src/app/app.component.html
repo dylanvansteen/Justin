@@ -1,0 +1,16 @@
+<div class="menu">
+  <aside>
+    <ul>
+      <li><a [routerLink]="['/home']">Home</a></li>
+      <li><a [routerLink]="['/day-one']">Dag-1</a></li>
+      <li><a [routerLink]="['/day-two']">Dag-2</a></li>
+      <li><a [routerLink]="['/day-three']">Dag-3</a></li>
+      <li><a [routerLink]="['/day-four']">Dag-4</a></li>
+      <li><a [routerLink]="['/day-five']">Dag-5</a></li>
+    </ul>
+  </aside>
+</div>
+<section>
+  <router-outlet></router-outlet>
+  <section>
+    {{title}}

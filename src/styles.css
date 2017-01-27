@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {text-align: center; color: black; margin: 0; padding: 0; width: 100%;font-family: 'Raleway', sans-serif; background-image: url("assets/abstracte-blauwe-achtergrond-voor-pc.jpg"); background-size: cover}
+
+aside{
+    text-align: left;
+background-color: cyan;
+width:55px;
+height:750;
+float:left;
+}
+aside ul {
+display:inline-block;
+list-style-type: none;
+margin:0px;
+padding:0;
+}
+aside ul li {
+margin:0;
+padding:0;
+}
+
+.menu {
+position: absolute;
+margin: 240px 0px 0px 0px;
+padding:0;
+}
+
+div.day {
+    height:200px;
+overflow:auto;
+}
+section {
+
+}
+
+footer {
+width:100%;
+clear:both;
+border-top:solid 4px cyan;
+}
+
