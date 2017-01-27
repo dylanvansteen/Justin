@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 
-var port = process.env.PORT ? process.env.PORT : 3000;
+var port = process.env.PORT;
 
 var app = express();
 
